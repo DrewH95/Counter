@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <title>Counter</title>
+</head>
+<body>
+    <h1>Counter</h1>
+    <p>This is our visits</p>
+    {{session['visit']}}
+    <p>This is how many counts</p>
+    {{session['count']}}
+    <a href='/'>Add</a>
+    <button type='/' class='btn btn-warning'>Add</button>
+    <a href='/clear'>Clear Session</a>
+    <button type='/clear' class='btn btn-primary'>Reset</button>
+    <!-- Struggling to link buttons back to home so they are functional-->
+
+
+    <!-- use 'clear', delete doesn't work for some reason -->
+
+</body>
+</html>
